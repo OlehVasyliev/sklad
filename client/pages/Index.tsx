@@ -97,7 +97,7 @@ export default function Index() {
               Оптовий склад ділової шкіряної галантереї
             </h2>
             <p className="text-gray-600">
-              Офіційний дистриб'ютор торгових марок: <span className="font-medium">Luxon, Tiger NU, David Jones, Nobo, Fabiano</span> в Україні
+              Офіційний дистриб'ютор торгових марок: <span className="font-medium">Luxon, Tigernu, David Jones, Himawari, Safenta, Vermari, Alfa Ricco, Cantlor, Bradford, Hassion</span> в Україні
             </p>
           </div>
         </div>

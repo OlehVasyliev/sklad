@@ -14,7 +14,7 @@ const categories: Category[] = [
   { name: 'Всі товари', slug: '', href: '/catalog' },
   { name: 'Сумки', slug: 'sumky', href: '/catalog/sumky' },
   { name: 'Рюкзаки', slug: 'ryukzaky', href: '/catalog/ryukzaky' },
-  { name: 'Кошельки', slug: 'koshelky', href: '/catalog/koshelky' },
+  { name: 'Гаманці', slug: 'gamanci', href: '/catalog/gamanci' },
   { name: 'Портмоне', slug: 'portmone', href: '/catalog/portmone' },
   { name: 'Портфелі', slug: 'portfeli', href: '/catalog/portfeli' },
   { name: 'Папки', slug: 'papky', href: '/catalog/papky' },

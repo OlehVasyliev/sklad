@@ -24,7 +24,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-white mb-4">SKLADONLINE</h3>
             <p className="text-sm">
-              Інтернет-магазин шкіряних виробів. Великий вибір сумок, кошельків, ремінів та аксесуарів.
+              Інтернет-магазин шкіряних виробів. Великий вибір сумок, гаманців, ремінів та аксесуарів.
             </p>
           </div>
 
@@ -34,13 +34,13 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-2"><Phone className="w-4 h-4" /><span>+380 (44) 123-45-67</span></div>
               <div className="flex items-center space-x-2"><Phone className="w-4 h-4" /><span>+380 (67) 123-45-67</span></div>
-              <div className="flex items-center space-x-2"><Mail className="w-4 h-4" /><span>info@skladonline.com.ua</span></div>
+              <div className="flex items-center space-x-2"><Mail className="w-4 h-4" /><span>i@skladonline.com.ua</span></div>
             </div>
           </div>
 
           {/* Hours */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Інформація</h4>
+            <h4 className="font-semibold text-white mb-4">Час роботи</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2"><Clock className="w-4 h-4" /><span>Пн-Пт: 9:00-18:00</span></div>
             </div>

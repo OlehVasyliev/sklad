@@ -42,7 +42,7 @@ const Catalog = () => {
   const mockProducts: Product[] = [
     {
       id: '1',
-      name: 'Чемодан SAMSONITE S\'Cure Spinner 55cm',
+      name: 'Валіза SAMSONITE S\'Cure Spinner 55cm',
       price: 8900,
       originalPrice: 9800,
   // images: productImages,
@@ -133,7 +133,7 @@ const Catalog = () => {
       'sumky-zhinochi': 'Жіночі сумки',
       'akcii': 'Промоакції',
       'ryukzaky': 'Рюкзаки',
-      'koshelky': 'Кошельки',
+      'gamanci': 'Гаманці',
       'portmone': 'Портмоне',
       'portfeli': 'Портфелі',
       'papky': 'Папки',

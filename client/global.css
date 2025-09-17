@@ -9,6 +9,8 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
+    --header-height: 120px;
+    --nav-height: 48px; /* Высота панели навигации */
     --background: 0 0% 100%;
     --foreground: 225 15% 15%;
 

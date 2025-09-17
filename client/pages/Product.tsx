@@ -50,13 +50,13 @@ const Product = () => {
   // Mock product data
   const mockProduct: ProductDetails = {
     id: '1',
-    name: 'Чемодан SAMSONITE S\'Cure Spinner 55cm',
+    name: 'Валіза SAMSONITE S\'Cure Spinner 55cm',
     articleCode: 'SM8113',
     price: 8900,
     originalPrice: 9800,
     brand: 'SAMSONITE',
     category: 'Чемодани',
-    description: 'Легкий та міцний чемодан з полікарбонату з системою 4 коліс для максимального комфорту під час подорожі. Оснащений TSA замком для безпеки ваших речей.',
+    description: 'Легка та міцна валіза з полікарбонату з системою 4 коліс для максимального комфорту під час подорожі. Оснащена TSA замком для безпеки ваших речей.',
     images: [
       'https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24833/24833.970.webp',
       'https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24834/24834.970.webp',
@@ -99,7 +99,7 @@ const Product = () => {
   const mockSimilarProducts = [
     {
       id: '2',
-      name: 'Чемодан DELSEY Chatelet Air 67cm',
+      name: 'Валіза DELSEY Chatelet Air 67cm',
       price: 12500,
       images: productImages,
       image: productImages[0],
@@ -109,7 +109,7 @@ const Product = () => {
     },
     {
       id: '3',
-      name: 'Чемодан VIP Collection Manhattan 65cm',
+      name: 'Валіза VIP Collection Manhattan 65cm',
       price: 5200,
       originalPrice: 6100,
       images: productImages,
@@ -120,7 +120,7 @@ const Product = () => {
     },
     {
       id: '4',
-      name: 'Чемодан MADISON PP 75cm Great',
+      name: 'Валіза MADISON PP 75cm Great',
       price: 4750,
       images: productImages,
       image: productImages[0],
@@ -155,7 +155,7 @@ const Product = () => {
   const breadcrumbItems = [
     { label: 'Головна', href: '/' },
     { label: 'Каталог', href: '/catalog' },
-    { label: 'Чемодани', href: '/catalog/chemodany' }
+    { label: 'Валізи', href: '/catalog/valizy' }
   ];
 
   if (loading || !product) {

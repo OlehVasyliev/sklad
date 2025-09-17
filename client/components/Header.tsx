@@ -44,12 +44,12 @@ const Header = () => {
     { name: 'Жіночі сумки', href: '/catalog/sumky-zhinochi' },
     { name: 'Сумки', href: '/catalog/sumky' },
     { name: 'Рюкзаки', href: '/catalog/ryukzaky' },
-    { name: 'Кошельки', href: '/catalog/koshelky' },
+    { name: 'Гаманці', href: '/catalog/gamanci' },
     { name: 'Портмоне', href: '/catalog/portmone' },
     { name: 'Портфелі', href: '/catalog/portfeli' },
     { name: 'Папки', href: '/catalog/papky' },
     { name: 'Дорожні сумки', href: '/catalog/dorozhni-sumky' },
-    { name: 'Чемодани', href: '/catalog/chemodany' },
+    { name: 'Валізи', href: '/catalog/valizy' },
     { name: 'Барсетки', href: '/catalog/barsetky' },
     { name: 'Ремені', href: '/catalog/remeni' },
     { name: 'Косметички', href: '/catalog/kosmetychky' },
@@ -206,17 +206,19 @@ const Header = () => {
 
               {/* Catalog dropdown */}
               {!isOnCategoryPage && isCatalogOpen && (
-                <div className="absolute left-0 top-full bg-white text-foreground border shadow-lg rounded-md w-64 z-50">
-                  {categories.map((category, index) => (
-                    <Link
-                      key={index}
-                      to={category.href}
-                      className="block px-4 py-2 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
-                      onClick={() => setIsCatalogOpen(false)}
-                    >
-                      {category.name}
-                    </Link>
-                  ))}
+                <div className="absolute left-0 right-0 top-full bg-white text-foreground border shadow-lg z-50 max-h-[calc(100vh-var(--header-height)-var(--nav-height))] overflow-y-auto md:w-64 md:left-4 md:right-auto md:max-h-none md:overflow-visible md:rounded-md">
+                  <div className="w-full">
+                    {categories.map((category, index) => (
+                      <Link
+                        key={index}
+                        to={category.href}
+                        className="block px-4 py-2 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
+                        onClick={() => setIsCatalogOpen(false)}
+                      >
+                        {category.name}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>

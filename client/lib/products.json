@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Жіночий гаманець 1",
+    "price": "599 грн",
+    "image": "https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24833/24833.970.webp",
+    "link": "https://skladonline.com.ua/zhinochi-gamanci/1/",
+    "category": "Жіночі гаманці"
+  },
+  {
+    "name": "Жіночий гаманець 2",
+    "price": "799 грн",
+    "image": "https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24834/24834.970.webp",
+    "link": "https://skladonline.com.ua/zhinochi-gamanci/2/",
+    "category": "Жіночі гаманці"
+  },
+  {
+    "name": "Чоловічий гаманець 1",
+    "price": "699 грн",
+    "image": "https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24835/24835.970.webp",
+    "link": "https://skladonline.com.ua/cholovichi-gamanci/1/",
+    "category": "Чоловічі гаманці"
+  },
+  {
+    "name": "Сумка 1",
+    "price": "1299 грн",
+    "image": "https://skladonline.com.ua/wa-data/public/shop/products/01/webp/13/81/8113/images/24836/24836.970.webp",
+    "link": "https://skladonline.com.ua/sumki/1/",
+    "category": "Сумки"
+  }
+  
+]

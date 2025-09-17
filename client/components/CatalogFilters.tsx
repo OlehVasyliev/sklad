@@ -29,7 +29,7 @@ const CatalogFilters: React.FC<CatalogFiltersProps> = ({
 }) => {
   const [filters, setFilters] = useState<Record<string, string[]>>({});
   const [searchParams] = useSearchParams();
-  // Устанавливаем фильтр по бренду из query brand
+  // Встановлюємо фільтр по бренду з query brand
   useEffect(() => {
     const brandParam = searchParams.get('brand');
     if (brandParam) {
@@ -60,10 +60,10 @@ const CatalogFilters: React.FC<CatalogFiltersProps> = ({
       key: 'category',
       isOpen: expandedSections.category,
       options: [
-        { value: 'chemodany', label: 'Чемодани', count: 45 },
+        { value: 'valizy', label: 'Валізи', count: 45 },
         { value: 'dorozhnie-sumky', label: 'Дорожні сумки', count: 23 },
-        { value: 'ryukzaky-dorozhnie', label: 'Дорожні рюкзаки', count: 18 },
-        { value: 'kosmetichky', label: 'Косметички', count: 12 }
+        { value: 'ryukzaky-dorozhni', label: 'Дорожні рюкзаки', count: 18 },
+        { value: 'kosmetychky', label: 'Косметички', count: 12 }
       ]
     },
     {
@@ -272,7 +272,7 @@ const CatalogFilters: React.FC<CatalogFiltersProps> = ({
             <X className="w-5 h-5" />
           </Button>
         </div>
-        <div className="p-4 overflow-y-auto h-full pb-20">
+        <div className="p-4 overflow-y-auto max-h-[calc(100vh-var(--header-height))] pb-20">
           <SidebarCatalogNavigation />
           {filterContent}
         </div>
